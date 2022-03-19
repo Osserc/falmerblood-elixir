@@ -19,7 +19,7 @@
     color: #F9FAF8;
 }
 
-.header-links, .header-smaller-text {
+.header-links, .header-smaller-text, .text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -48,6 +48,27 @@
     font-weight: bold;
     font-size: larger;
     border-radius: 8px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px 0px;
+}
+
+.center-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 50px 0px;
 }
 
 ul {
