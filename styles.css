@@ -72,6 +72,20 @@
     margin: 50px 0px;
 }
 
+.text {
+    text-align: center;
+    flex-wrap: wrap;
+    color: #1f2937;
+    width: 250px;
+}
+
+.image img {
+    border: 5px solid #3882F6;
+    width: 250px;
+    height: 350px;
+    margin: 0px;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
